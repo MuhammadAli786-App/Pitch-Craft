@@ -67,7 +67,7 @@ export default function Dashboard() {
             loading
               ? "bg-indigo-400 cursor-not-allowed"
               : "bg-indigo-600 hover:bg-indigo-700"
-          } text-white font-semibold py-3 px-7 rounded-2xl shadow-md transition duration-300 transform hover:-translate-y-1`}
+          } cursor-pointer text-white font-semibold py-3 px-7 rounded-2xl shadow-md transition duration-300 transform hover:-translate-y-1`}
         >
           {loading ? "Generating..." : "Generate Pitch"}
         </button>
